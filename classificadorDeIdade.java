@@ -6,7 +6,7 @@ public class classificadorDeIdade {
             }
             else if (idade <18){ clas ="adolescente" ;
             }
-            else if (idade <60){ clas ="adulto" ;
+            else if (idade <65){ clas ="adulto" ;
         }
         else { clas ="idoso" ;
     }
