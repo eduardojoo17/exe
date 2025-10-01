@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 public class MaiorNumero {
     public static void main(String[] args) {
         int[]pontos = new int[6];
-        int cont=0,maior;
+        int maior;
 
         
         for(int i =0;i< pontos.length;i++){
