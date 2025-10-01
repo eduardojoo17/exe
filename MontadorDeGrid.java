@@ -1,4 +1,4 @@
-import java.util.Arrays;
+
 import java.util.Scanner;
 public class MontadorDeGrid {
     public static void main(String[] args) {
@@ -21,7 +21,8 @@ System.out.println();
 
  for(int i=0;i < grid.length;i++){
             for(int j=0;j<grid[i].length;j++){
-                System.out.print(grid[i][j]);
+            
+                System.out.print(grid[i][j]+"\t");
 
                 System.out.print(" ");
                  
@@ -31,7 +32,7 @@ System.out.println();
     }  
 
 
-
+ler.close();
 
 }
 }

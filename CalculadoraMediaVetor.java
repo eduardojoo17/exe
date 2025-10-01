@@ -16,11 +16,14 @@ public class CalculadoraMediaVetor {
         Scanner ler = new Scanner(System.in);
 
         for(int i =0;i< notas.length;i++){
-            System.out.println("digite a "+(i+1)+" nota:");
+            System.out.printf("digite a %d nota:",i+1);
             notas[i]= ler.nextDouble();
             soma = soma + notas[i];
         }
 
-            System.out.printf("a média final é: %.2f",soma/4);
+            System.out.printf("a média final é: %.2f",soma/notas.length);
+            ler.close();
     }
 }
+
+
