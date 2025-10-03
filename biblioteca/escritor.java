@@ -2,16 +2,12 @@ package biblioteca;
 
 public class escritor {
     public static void main(String[] args) {
-        Autor gusAutor = new Autor();
-        gusAutor.nome = "Gustavo";
-        gusAutor.nacionalidade= "Brasileiro";
-
-        Livro HomemTarantula = new Livro();
-
-        HomemTarantula.titulo = "O espetacular Homem Tarantula";
-        HomemTarantula.anoPublicacao= "2025";
+        Autor gusAutor = new Autor("gustavo", "Brasileiro");
         
-        HomemTarantula.autor = gusAutor;
+
+        Livro HomemTarantula = new Livro("Homem Tarantula","2025",gusAutor);
+
+        
 
 
         System.out.println("O livro "+HomemTarantula.titulo+" foi escrito por "+gusAutor.nome);
