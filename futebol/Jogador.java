@@ -3,6 +3,11 @@ package futebol;
 public class Jogador {
 
    String nome;
-   int posicao;     
+   String posicao;    
+   
+   public Jogador(String nome, String posicao){
+      this.nome = nome;
+      this.posicao = posicao;
+   }
 
 }
