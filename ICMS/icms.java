@@ -10,6 +10,6 @@ public class icms {
             System.out.println("deseja encerrar o programa: S/n?");
             acao = sc.nextLine();
 
-        }while(acao =="s");
+        }while(acao !="s");
     }
 }
