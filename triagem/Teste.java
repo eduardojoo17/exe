@@ -11,7 +11,7 @@ public class Teste {
         Pessoa p5 =new Pessoa(40);
 
         System.out.println("---- Fila de pessoas ----");
-        FilaPrincipal fila = new FilaPrincipal(4);
+        FilaPrincipal fila = new FilaPrincipal(5);
         fila.dequeue();
         fila.enqueue(p1);
         fila.enqueue(p2);
